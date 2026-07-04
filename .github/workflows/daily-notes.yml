@@ -1,0 +1,49 @@
+name: Daily AI/ML Notes
+
+# Runs twice a day (morning + afternoon, IST) and commits one new note each run.
+on:
+  schedule:
+    - cron: "30 3 * * *"   # 09:00 IST -> morning note
+    - cron: "30 10 * * *"  # 16:00 IST -> afternoon note
+  workflow_dispatch: {}    # allows manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  generate-note:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Detect session (morning/afternoon)
+        id: session
+        run: |
+          hour=$(date -u +%H)
+          if [ "$hour" -lt 7 ]; then
+            echo "session=morning" >> "$GITHUB_OUTPUT"
+          else
+            echo "session=afternoon" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate note via Groq
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python scripts/generate_note.py "${{ steps.session.outputs.session }}"
+
+      - name: Commit and push note
+        run: |
+          git config user.name "notes-bot"
+          git config user.email "notes-bot@users.noreply.github.com"
+          git add notes/
+          git commit -m "📘 ${NOTE_TOPIC}: ${NOTE_SUBTOPIC} (${{ steps.session.outputs.session }})" -m "File: ${NOTE_FILE}"
+          git push
