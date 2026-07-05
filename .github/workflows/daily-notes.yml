@@ -42,8 +42,8 @@ jobs:
 
       - name: Commit and push note
         run: |
-          git config user.name "notes-bot"
-          git config user.email "notes-bot@users.noreply.github.com"
+          git config user.name "gaurav712-gujjar"
+          git config user.email "gujjargaurav712@gmail.com"
           git add notes/
           git commit -m "📘 ${NOTE_TOPIC}: ${NOTE_SUBTOPIC} (${{ steps.session.outputs.session }})" -m "File: ${NOTE_FILE}"
           git push
