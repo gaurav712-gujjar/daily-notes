@@ -38,6 +38,7 @@
     "Markov Chain Monte Carlo",
     "Gaussian Mixture Models",
     "Graph Convolutional Networks",
-    "Information Gain Calculation"
+    "Information Gain Calculation",
+    "Deep Learning Quantization"
   ]
 }
