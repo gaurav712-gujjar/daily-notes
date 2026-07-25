@@ -44,6 +44,7 @@
     "Text to Image Models",
     "Knowledge Graph Embeddings",
     "Python Lambda Functions",
-    "Latent Space Optimization"
+    "Latent Space Optimization",
+    "Orthogonal Matching Pursuit"
   ]
 }
