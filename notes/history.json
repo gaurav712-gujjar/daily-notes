@@ -45,6 +45,7 @@
     "Knowledge Graph Embeddings",
     "Python Lambda Functions",
     "Latent Space Optimization",
-    "Orthogonal Matching Pursuit"
+    "Orthogonal Matching Pursuit",
+    "Conditional Random Fields"
   ]
 }
