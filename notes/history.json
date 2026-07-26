@@ -46,6 +46,7 @@
     "Python Lambda Functions",
     "Latent Space Optimization",
     "Orthogonal Matching Pursuit",
-    "Conditional Random Fields"
+    "Conditional Random Fields",
+    "Ensemble Learning with Bagging"
   ]
 }
