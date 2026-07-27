@@ -48,6 +48,7 @@
     "Orthogonal Matching Pursuit",
     "Conditional Random Fields",
     "Ensemble Learning with Bagging",
-    "Online Learning Algorithms"
+    "Online Learning Algorithms",
+    "Python Type Hinting"
   ]
 }
