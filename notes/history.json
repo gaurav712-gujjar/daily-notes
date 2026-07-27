@@ -47,6 +47,7 @@
     "Latent Space Optimization",
     "Orthogonal Matching Pursuit",
     "Conditional Random Fields",
-    "Ensemble Learning with Bagging"
+    "Ensemble Learning with Bagging",
+    "Online Learning Algorithms"
   ]
 }
