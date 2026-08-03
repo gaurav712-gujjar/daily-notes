@@ -62,6 +62,7 @@
     "Radial Basis Function Networks",
     "Graph Sampling Methods",
     "Episodic Reinforcement Learning",
-    "Batch Normalization Technique"
+    "Batch Normalization Technique",
+    "Deep Learning Weight Initialization"
   ]
 }
