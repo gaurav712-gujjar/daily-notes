@@ -63,6 +63,7 @@
     "Graph Sampling Methods",
     "Episodic Reinforcement Learning",
     "Batch Normalization Technique",
-    "Deep Learning Weight Initialization"
+    "Deep Learning Weight Initialization",
+    "Vector Quantized VAE"
   ]
 }
