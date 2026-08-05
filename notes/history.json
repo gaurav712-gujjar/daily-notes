@@ -65,6 +65,7 @@
     "Batch Normalization Technique",
     "Deep Learning Weight Initialization",
     "Vector Quantized VAE",
-    "Python Memoization Technique"
+    "Python Memoization Technique",
+    "Mahalanobis Distance Metric"
   ]
 }
