@@ -88,6 +88,7 @@
     "GAN Evaluation Metrics",
     "functools module usage",
     "SQL Stored Procedures",
-    "Model Interpretability Techniques"
+    "Model Interpretability Techniques",
+    "Dilated Convolutions Technique"
   ]
 }
