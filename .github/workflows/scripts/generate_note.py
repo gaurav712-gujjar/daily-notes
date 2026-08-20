@@ -73,14 +73,30 @@ def call_groq(prompt: str) -> str:
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json",
     }
+
     payload = {
         "model": GROQ_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.9,
         "max_tokens": 700,
     }
-    resp = requests.post(GROQ_URL, headers=headers, json=payload, timeout=60)
+
+    print("URL:", GROQ_URL)
+    print("Model:", GROQ_MODEL)
+    print("API Key Exists:", bool(GROQ_API_KEY))
+
+    resp = requests.post(
+        GROQ_URL,
+        headers=headers,
+        json=payload,
+        timeout=60,
+    )
+
+    print("Status Code:", resp.status_code)
+    print("Response:", resp.text)
+
     resp.raise_for_status()
+
     return resp.json()["choices"][0]["message"]["content"]
 
 
