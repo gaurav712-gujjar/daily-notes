@@ -27,7 +27,7 @@ NOTES_DIR = "notes"
 HISTORY_FILE = os.path.join(NOTES_DIR, "history.json")
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 MAX_RETRIES = 3
