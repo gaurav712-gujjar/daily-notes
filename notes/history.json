@@ -91,6 +91,7 @@
     "Model Interpretability Techniques",
     "Dilated Convolutions Technique",
     "Intent Recognition Models",
-    "Permutation Feature Importance"
+    "Permutation Feature Importance",
+    "Classifier-Free Guidance"
   ]
 }
