@@ -108,6 +108,7 @@
     "Depthwise Separable Convolutions",
     "Retrieval-Augmented Generation",
     "Stochastic Depth",
-    "Elastic Net Regularization"
+    "Elastic Net Regularization",
+    "Feature Hashing"
   ]
 }
