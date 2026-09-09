@@ -109,6 +109,7 @@
     "Retrieval-Augmented Generation",
     "Stochastic Depth",
     "Elastic Net Regularization",
-    "Feature Hashing"
+    "Feature Hashing",
+    "SMOTE for Imbalanced Data"
   ]
 }
