@@ -110,6 +110,7 @@
     "Stochastic Depth",
     "Elastic Net Regularization",
     "Feature Hashing",
-    "SMOTE for Imbalanced Data"
+    "SMOTE for Imbalanced Data",
+    "Shapley Value Explanation"
   ]
 }
