@@ -112,6 +112,7 @@
     "Feature Hashing",
     "SMOTE for Imbalanced Data",
     "Shapley Value Explanation",
-    "Knowledge Distillation"
+    "Knowledge Distillation",
+    "Proximal Policy Optimization"
   ]
 }
