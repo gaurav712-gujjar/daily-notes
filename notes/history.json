@@ -113,6 +113,7 @@
     "SMOTE for Imbalanced Data",
     "Shapley Value Explanation",
     "Knowledge Distillation",
-    "Proximal Policy Optimization"
+    "Proximal Policy Optimization",
+    "Bootstrap Resampling"
   ]
 }
