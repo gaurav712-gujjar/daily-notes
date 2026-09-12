@@ -115,6 +115,7 @@
     "Knowledge Distillation",
     "Proximal Policy Optimization",
     "Bootstrap Resampling",
-    "Early"
+    "Early",
+    "ReAct Prompting for Tool Use"
   ]
 }
