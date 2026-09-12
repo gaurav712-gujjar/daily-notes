@@ -114,6 +114,7 @@
     "Shapley Value Explanation",
     "Knowledge Distillation",
     "Proximal Policy Optimization",
-    "Bootstrap Resampling"
+    "Bootstrap Resampling",
+    "Early"
   ]
 }
