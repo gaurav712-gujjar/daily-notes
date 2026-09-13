@@ -116,6 +116,7 @@
     "Proximal Policy Optimization",
     "Bootstrap Resampling",
     "Early",
-    "ReAct Prompting for Tool Use"
+    "ReAct Prompting for Tool Use",
+    "Monte Carlo Dropout"
   ]
 }
