@@ -117,6 +117,7 @@
     "Bootstrap Resampling",
     "Early",
     "ReAct Prompting for Tool Use",
-    "Monte Carlo Dropout"
+    "Monte Carlo Dropout",
+    "Data Classes in Python"
   ]
 }
