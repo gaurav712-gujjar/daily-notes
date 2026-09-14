@@ -20,11 +20,12 @@ jobs:
       - name: Detect session (morning/afternoon)
         id: session
         run: |
-          hour=$(date -u +%H)
-          if [ "$hour" -lt 7 ]; then
+          if [ "${{ github.event.schedule }}" = "30 3 * * *" ]; then
             echo "session=morning" >> "$GITHUB_OUTPUT"
-          else
+          elif [ "${{ github.event.schedule }}" = "30 10 * * *" ]; then
             echo "session=afternoon" >> "$GITHUB_OUTPUT"
+          else
+            echo "session=manual" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Set up Python
@@ -45,5 +46,9 @@ jobs:
           git config user.name "gaurav712-gujjar"
           git config user.email "gujjargaurav712@gmail.com"
           git add notes/
-          git commit -m "📘 ${NOTE_TOPIC}: ${NOTE_SUBTOPIC} (${{ steps.session.outputs.session }})" -m "File: ${NOTE_FILE}"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📘 ${NOTE_TOPIC}: ${NOTE_SUBTOPIC} (${{ steps.session.outputs.session }})" -m "File: ${NOTE_FILE}"
+            git push
+          fi
