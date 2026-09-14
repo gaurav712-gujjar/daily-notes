@@ -119,6 +119,7 @@
     "ReAct Prompting for Tool Use",
     "Monte Carlo Dropout",
     "Data Classes in Python",
-    "Self-Consistency Prompting"
+    "Self-Consistency Prompting",
+    "Textual Inversion"
   ]
 }
