@@ -118,6 +118,7 @@
     "Early",
     "ReAct Prompting for Tool Use",
     "Monte Carlo Dropout",
-    "Data Classes in Python"
+    "Data Classes in Python",
+    "Self-Consistency Prompting"
   ]
 }
