@@ -136,6 +136,7 @@
     "Weak References",
     "Model Stacking",
     "Recursive Reward Modeling",
-    "Temperature Scaling Calibration"
+    "Temperature Scaling Calibration",
+    "Swish Activation Function"
   ]
 }
