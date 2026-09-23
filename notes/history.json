@@ -138,6 +138,7 @@
     "Recursive Reward Modeling",
     "Temperature Scaling Calibration",
     "Swish Activation Function",
-    "Importlib Lazy Module Loading"
+    "Importlib Lazy Module Loading",
+    "SQL Triggers and Automation"
   ]
 }
