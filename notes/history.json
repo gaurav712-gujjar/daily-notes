@@ -137,6 +137,7 @@
     "Model Stacking",
     "Recursive Reward Modeling",
     "Temperature Scaling Calibration",
-    "Swish Activation Function"
+    "Swish Activation Function",
+    "Importlib Lazy Module Loading"
   ]
 }
