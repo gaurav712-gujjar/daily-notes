@@ -140,6 +140,7 @@
     "Swish Activation Function",
     "Importlib Lazy Module Loading",
     "SQL Triggers and Automation",
-    "Spectral Normalization"
+    "Spectral Normalization",
+    "Cosine Annealing Scheduler"
   ]
 }
