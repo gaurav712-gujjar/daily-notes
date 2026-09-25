@@ -141,6 +141,7 @@
     "Importlib Lazy Module Loading",
     "SQL Triggers and Automation",
     "Spectral Normalization",
-    "Cosine Annealing Scheduler"
+    "Cosine Annealing Scheduler",
+    "Self-Verification for LLM Agents"
   ]
 }
