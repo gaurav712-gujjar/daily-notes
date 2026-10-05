@@ -162,6 +162,7 @@
     "Group Normalization",
     "Learning Rate Warmup",
     "Residual Connections",
-    "Recursive Feature Elimination"
+    "Recursive Feature Elimination",
+    "AdaBoost Ensemble Method"
   ]
 }
