@@ -169,6 +169,7 @@
     "Bayesian Optimization",
     "Control",
     "Python logging module",
-    "RANSAC Regression"
+    "RANSAC Regression",
+    "Squeeze-and-Excitation Blocks"
   ]
 }
