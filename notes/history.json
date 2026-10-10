@@ -171,6 +171,7 @@
     "Python logging module",
     "RANSAC Regression",
     "Squeeze-and-Excitation Blocks",
-    "Untitled Note - 1707"
+    "Untitled Note - 1707",
+    "Gradient Checkpointing"
   ]
 }
