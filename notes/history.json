@@ -178,6 +178,7 @@
     "Structural Pattern Matching",
     "Kaplan Meier Survival Estimator",
     "SQL Lateral Join",
-    "Isotonic Regression"
+    "Isotonic Regression",
+    "Magic attribute methods"
   ]
 }
