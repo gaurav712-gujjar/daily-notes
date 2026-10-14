@@ -180,6 +180,7 @@
     "SQL Lateral Join",
     "Isotonic Regression",
     "Magic attribute methods",
-    "Typing Protocols"
+    "Typing Protocols",
+    "M-Estimators for Robust Regression"
   ]
 }
