@@ -179,6 +179,7 @@
     "Kaplan Meier Survival Estimator",
     "SQL Lateral Join",
     "Isotonic Regression",
-    "Magic attribute methods"
+    "Magic attribute methods",
+    "Typing Protocols"
   ]
 }
