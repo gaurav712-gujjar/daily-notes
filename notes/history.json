@@ -196,6 +196,7 @@
     "Gradient Reversal Layer",
     "Denoising Diffusion Implicit Models",
     "Untitled Note - 1529",
-    "__repr__ vs __str__"
+    "__repr__ vs __str__",
+    "ControlNet Conditioning"
   ]
 }
