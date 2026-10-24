@@ -199,6 +199,7 @@
     "__repr__ vs __str__",
     "ControlNet Conditioning",
     "Untitled Note - 0846",
-    "Sparsemax Activation Function"
+    "Sparsemax Activation Function",
+    "Text-guided Image Inpainting"
   ]
 }
