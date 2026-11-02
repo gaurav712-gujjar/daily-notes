@@ -217,6 +217,7 @@
     "assert and __debug__",
     "Layer-wise Relevance Propagation",
     "Sobol Sensitivity Analysis",
-    "Untitled Note - 1652"
+    "Untitled Note - 1652",
+    "__init_subclass__ Hook"
   ]
 }
